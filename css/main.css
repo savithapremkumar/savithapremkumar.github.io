@@ -18,3 +18,17 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     padding: 5px;
     width: 100%;
 }
+
+.thumbcontainer {
+	cursor: pointer;
+  	overflow: hidden;
+  	display: inline-block;
+  	& > img {
+    transition: transform .3s;
+  	}
+  	&:hover {
+    & > img {
+      transform: scale(1.3);
+    }
+  }
+}
