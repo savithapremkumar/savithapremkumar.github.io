@@ -53,3 +53,13 @@ div:hover > img {
     background-color: #073b4c!important;
 }
   
+  .headcontainer {
+    position: relative;
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
