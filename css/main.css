@@ -59,7 +59,8 @@ div.thumbcontainer:hover > img {
 
 .topleft {
     position: absolute;
-    top: 8px;
+    top: 70px;
     left: 16px;
-    font-size: 18px;
+    font-size: 30px;
+    color:#ffffff;
 }
