@@ -1,8 +1,13 @@
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.anchor {text-decoration: none}
+
+body {
+
+	background-color: #073b4c!important;
+}
+.anchor {text-decoration: none;color :#ffffff;}
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: #222;}
+.w3-sidebar {width: 120px;background: #118ab2;}
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
@@ -31,5 +36,14 @@ div > img {
 div:hover > img {
       transform: scale(1.1);
 }
+
+.w3-dark-grey, .w3-hover-dark-grey:hover, .w3-dark-gray, .w3-hover-dark-gray:hover {
+	background-color: #ffd166 !important;
+}
    
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    color: #2E4052!important;
+    background-color: #ffffff!important;
+}
+
   
