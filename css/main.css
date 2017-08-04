@@ -26,11 +26,11 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   	
 }
 
-.thumbcontainer > img {
+div > img {
     transition: transform .3s;
   	}
   	
-  		 .thumbcontainer:hover > img {
+  		 div:hover > img {
       transform: scale(1.3);
     }
    
