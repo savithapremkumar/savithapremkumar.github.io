@@ -65,3 +65,7 @@ div.thumbcontainer:hover > img {
     font-size: 30px;
     color:#ffffff;
 }
+
+.padding-400 {
+	padding-top: 400px;
+}
