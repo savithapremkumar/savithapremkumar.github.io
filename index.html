@@ -164,29 +164,21 @@
         var elem = document.getElementsByClassName("w3-dark-grey");  
         var width = 1;
         var id = setInterval(frame, 10);
-        for (var i=0; i < elem.length; i++){
-          
-           function frame() {
+        function frame() {
 
-                if(i=0 && width>=95) {
+                if(width>=95) {
                   clearInterval(id);
                 }
-                else if(i=1 && width>=90) {
-                  clearInterval(id);
-                }
-                else if(i=2 && width>=90) {
-                  clearInterval(id);
-                }
-                else if(i=3 && width>=80) {
-                  clearInterval(id);
-                }
+                
                 else {
                   width++; 
-                  elem[i].style.width = width + '%'; 
+                  for (var i=0; i<elem.length; i++) {
+                    elem[i].style.width = width + '%'; 
+                  }
                 }
                 
           }
-        }  
+          
     })
   </script>
 </body>
