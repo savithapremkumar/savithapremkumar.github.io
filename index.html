@@ -173,10 +173,21 @@
                 else {
                   width++; 
                   for (var i=0; i<elem.length; i++) {
-                    elem[i].style.width = width + '%'; 
+                    if (width >=80 && i ==3)
+                    {
+                      elem[i].style.width = '80%'; 
+                    }
+
+                    else if (width >=90 && i == 1||2) {
+                      elem[i].style.width = '90%'; 
+
+                    }
+                    else {
+                      elem[i].style.width = width + '%'; 
+
+                    }
                   }
-                }
-                
+                }     
           }
           
     })
