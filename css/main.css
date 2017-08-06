@@ -74,3 +74,7 @@ div.thumbcontainer:hover > img {
 .padding-24{
 	padding-top:24px!important;
 }
+
+.progress {
+	height:28px;
+}
