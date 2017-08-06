@@ -161,31 +161,31 @@
   <script>
     window.addEventListener('load',
     function(){
-        var elem = document.getElementsByClassName("w3-dark-grey");   
+        var elem = document.getElementsByClassName("w3-dark-grey");  
         var width = 1;
-        var id = setInterval(frame, 10);
-        function frame() {
-          if (elem[0].style.width >= 95) {
-            clearInterval(id);
-          }
-          else if(elem[1].style.width >= 90) {
-            clearInterval(id);
-          }
+        for (var i=0; i < elem.length; i++){
+          var id = setInterval(frame, 10);
+           function frame() {
 
-          else if (elem[2].style.width >=90) {
-            clearInterval(id);
+                if(i=0 && width>=95) {
+                  clearInterval(id);
+                }
+                else if(i=1 && width>=90) {
+                  clearInterval(id);
+                }
+                else if(i=2 && width>=90) {
+                  clearInterval(id);
+                }
+                else if(i=3 && width>=80) {
+                  clearInterval(id);
+                }
+                else {
+                  width++; 
+                  elem[i].style.width = width + '%'; 
+                }
+                
           }
-
-          else if (elem[3].style.width>=80) {
-            clearInterval(id);
-          }
-           else {
-              width++; 
-              for (var i=0; i < elem.length; i++) {
-                elem[i].style.width = width + '%'; 
-              }
-            }
-        }
+        }  
     })
   </script>
 </body>
