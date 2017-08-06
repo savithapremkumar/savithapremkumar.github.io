@@ -1,0 +1,20 @@
+.w3-black, .w3-hover-black:hover {
+
+	background-color: #073b4c!important;
+	color:#f1f1f1!important;
+}
+
+.w3-sidebar-color {background: #ffffff; color:#073b4c;}
+
+.w3-dark-grey, .w3-hover-dark-grey:hover, .w3-dark-gray, .w3-hover-dark-gray:hover {
+	background-color: #ffd166 !important;
+}
+   
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    color: #2E4052!important;
+    background-color: #ffffff!important;
+}
+.w3-button:hover {
+    color: #ffffff!important;
+    background-color: #073b4c!important;
+}

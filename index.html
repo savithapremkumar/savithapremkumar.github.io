@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/blue.css" id="blue">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.css">
 
   <body class="w3-black">
@@ -16,7 +17,7 @@
     </ul>
 
     <!-- Icon Bar (Sidebar - hidden on small screens) -->
-    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <nav class="w3-sidebar w3-sidebar-color w3-bar-block w3-small w3-hide-small w3-center">
     <!-- Avatar image in top left corner 
     <img src="/w3images/avatar.jpg" style="width:100%">-->
       <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
@@ -204,12 +205,12 @@
         $(document).ready(function() {
           // default stylsheet
           $("#css-blue").click(function() {
-          $("link[rel=stylesheet]").attr({href : "css/blue.css"});
+          $("link[id=blue]").attr({href : "css/blue.css"});
           });
            
           // red stylesheet
           $("#css-red").click(function() {
-          $("link[rel=stylesheet]").attr({href : "css/red.css"});
+          $("link[id=blue]").attr({href : "css/red.css"});
           });
            
         });
