@@ -11,10 +11,14 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.css">
 
   <body class="w3-black">
-    <ul>
+    <div class="togglecss">
+      <i class="fa fa-toggle-on fa-2x active" id="css-blue" style="display:none;"></i>
+      <i class="fa fa-toggle-on fa-2x fa-rotate-180 inactive" id="css-red" ></i>
+    </div> 
+   <!-- <ul>
       <li><a id="css-blue" href="#blue">Blue</a></li>
       <li><a id="css-red" href="#red">Red</a></li>
-    </ul>
+    </ul>-->
 
     <!-- Icon Bar (Sidebar - hidden on small screens) -->
     <nav class="w3-sidebar w3-sidebar-color w3-bar-block w3-small w3-hide-small w3-center">
@@ -165,7 +169,7 @@
     <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
     <script>
-        window.addEventListener('load',
+        /*window.addEventListener('load',
         function(){
             var elem = document.getElementsByClassName("w3-dark-grey");  
             var width = 1;
@@ -199,11 +203,44 @@
                     }     
               }
               
-        })
+        })*/
 
         
         $(document).ready(function() {
-          // default stylsheet
+
+          var elem = document.getElementsByClassName("w3-dark-grey");  
+            var width = 1;
+            var id = setInterval(frame, 10);
+            function frame() {
+
+                    if(width>=95) {
+                      clearInterval(id);
+                    }
+                    
+                    else {
+                      width++; 
+                      for (var i=0; i<elem.length; i++) {
+                        if (width >=80 && i ==3)
+                        {
+                          break; 
+                        }
+
+                        else if (width >=90 && (i == 1 || i==2)) {
+                          break;
+                        }
+
+                        else if (width >=50 && i==4) {
+                          break;
+                        }
+                        else {
+                          elem[i].style.width = width + '%'; 
+
+                        }
+                      }
+                    }     
+              }
+
+          // default stylesheet
           $("#css-blue").click(function() {
           $("link[id=blue]").attr({href : "css/blue.css"});
           });
@@ -211,6 +248,10 @@
           // red stylesheet
           $("#css-red").click(function() {
           $("link[id=blue]").attr({href : "css/red.css"});
+          });
+
+          $('.togglecss').click(function() {
+            $('.inactive, .active').toggle();
           });
            
         });
