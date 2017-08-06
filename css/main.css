@@ -56,6 +56,7 @@ div.thumbcontainer:hover > img {
   
   .headcontainer {
     position: relative;
+    height:400px;
 }
 
 .topleft {
