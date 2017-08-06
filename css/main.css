@@ -59,11 +59,11 @@ div.thumbcontainer:hover > img {
 }
 
 .togglecss {
-	text-align: center;
+	text-align: right;
 	margin: 0 auto;
 	padding: 2rem;
 }
 
 .active {
-	color: red;
+	color: white;
 }	
