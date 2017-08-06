@@ -1,203 +1,200 @@
 <!DOCTYPE html>
 <html>
-<title>Portfolio</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.css">
+  <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.css">
 
-<body class="w3-black">
+  <body class="w3-black">
 
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner 
-  <img src="/w3images/avatar_smoke.jpg" style="width:100%">-->
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a href="#work" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>WORK</p>
-  </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
-  </a>
-</nav>
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Avatar image in top left corner 
+    <img src="/w3images/avatar.jpg" style="width:100%">-->
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HOME</p>
+      </a>
+      <a href="#work" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p>WORK</p>
+      </a>
+      <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-eye w3-xxlarge"></i>
+        <p>ABOUT</p>
+      </a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-envelope w3-xxlarge"></i>
+        <p>CONTACT</p>
+      </a>
+    </nav>
 
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#work" class="w3-bar-item w3-button" style="width:25% !important">WORK</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-  </div>
-</div>
-
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <!--<header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo">Savitha Premkumar</h1>
-    <p>Front-end web Developer</p>-->
-    <div class="headcontainer w3-padding-64 w3-content" >
-      <div class="w3-half">
-        <img src="/images/profilepic.jpg" alt="ProfilePicture" class="w3-image" width="400" height="500">
-        <div class="topleft">Savitha Premkumar <br> Front-end web Developer</div>
-      </div>
-      <div class="w3-half" style="margin-top:-80px;">
-        <h3 class="w3-padding-16 w3-text-light-grey">Skills</h3>
-        <p class="w3-wide w3-text-light-grey">jQuery</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey progress" ></div>
-        </div>
-        <p class="w3-wide w3-text-light-grey">JavaScript</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey progress" ></div>
-        </div>
-        <p class="w3-wide w3-text-light-grey">HTML5, CSS3</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey progress" ></div>
-        </div>
-        <p class="w3-wide w3-text-light-grey">Bootstrap</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey progress" ></div>
-        </div>
-        <p class="w3-wide w3-text-light-grey">React,Node.js,ES6</p>
-        <div class="w3-white" >
-          <div class="w3-dark-grey progress" ></div>
-        </div>
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+      <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+        <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+        <a href="#work" class="w3-bar-item w3-button" style="width:25% !important">WORK</a>
+        <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+        <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
       </div>
     </div>
-  <!--</header>-->
 
-  <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="work">
-    <h2 class="w3-text-light-grey">My Work</h2>
-
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <a href="images/Oliogo1.png" data-fancybox="images">
-        <div class="thumbcontainer">
-          <img src="/images/thumbs/Oliogo1_thumbnail.png" class="thumb" />
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+      <!-- Header/Home -->
+      <!--<header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+        <h1 class="w3-jumbo">Savitha Premkumar</h1>
+        <p>Front-end web Developer</p>-->
+      <div class="headcontainer w3-padding-64 w3-content" >
+          <div class="w3-half">
+            <img src="/images/profilepic.jpg" alt="ProfilePicture" class="w3-image" width="400" height="500">
+            <div class="topleft">Savitha Premkumar <br> Front-end web Developer</div>
           </div>
-        </a>
-        <a href="/images/SI.png" data-fancybox="images">
-        <div class="thumbcontainer">
-          <img src="/images/thumbs/SI_thumbnail.png" class="thumb" />
+          <div class="w3-half" style="margin-top:-80px;">
+            <h3 class="w3-padding-16 w3-text-light-grey">Skills</h3>
+            <p class="w3-wide w3-text-light-grey">jQuery</p>
+            <div class="w3-white">
+              <div class="w3-dark-grey progress" ></div>
+            </div>
+            <p class="w3-wide w3-text-light-grey">JavaScript</p>
+            <div class="w3-white">
+              <div class="w3-dark-grey progress" ></div>
+            </div>
+            <p class="w3-wide w3-text-light-grey">HTML5, CSS3</p>
+            <div class="w3-white">
+              <div class="w3-dark-grey progress" ></div>
+            </div>
+            <p class="w3-wide w3-text-light-grey">Bootstrap</p>
+            <div class="w3-white">
+              <div class="w3-dark-grey progress" ></div>
+            </div>
+            <p class="w3-wide w3-text-light-grey">React,Node.js,ES6</p>
+            <div class="w3-white" >
+              <div class="w3-dark-grey progress" ></div>
+            </div>
           </div>
-        </a>
-    
       </div>
+      <!--</header>-->
 
-      <div class="w3-half">
-       <a href="images/Oliogo2.png" data-fancybox="images">
-        <div class="thumbcontainer">
-          <img src="/images/thumbs/Oliogo2_thumbnail.png" class="thumb" />
+      <!-- Portfolio Section -->
+      <div class="w3-padding-64 w3-content" id="work">
+        <h2 class="w3-text-light-grey">My Work</h2>
+
+        <!-- Grid for photos -->
+        <div class="w3-row-padding" style="margin:0 -16px">
+          <div class="w3-half">
+            <a href="images/Oliogo1.png" data-fancybox="images">
+            <div class="thumbcontainer">
+              <img src="/images/thumbs/Oliogo1_thumbnail.png" class="thumb" />
+              </div>
+            </a>
+            <a href="/images/SI.png" data-fancybox="images">
+            <div class="thumbcontainer">
+              <img src="/images/thumbs/SI_thumbnail.png" class="thumb" />
+              </div>
+            </a>
           </div>
-        </a>
-        <a href="images/Aldnet.png" data-fancybox="images">
-         <div class="thumbcontainer">
-          <img src="/images/thumbs/Aldnet-thumbnail.png" class="thumb" />
+
+          <div class="w3-half">
+           <a href="images/Oliogo2.png" data-fancybox="images">
+            <div class="thumbcontainer">
+              <img src="/images/thumbs/Oliogo2_thumbnail.png" class="thumb" />
+              </div>
+            </a>
+            <a href="images/Aldnet.png" data-fancybox="images">
+             <div class="thumbcontainer">
+              <img src="/images/thumbs/Aldnet-thumbnail.png" class="thumb" />
+              </div>
+            </a>
           </div>
-        </a>
+        <!-- End photo grid -->
+        </div>
+      <!-- End Portfolio Section -->
       </div>
-    <!-- End photo grid -->
-    </div>
-  <!-- End Portfolio Section -->
-  </div>
-  
+      
 
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <!--<h2 class="w3-text-light-grey">Savitha Premkumar</h2>
-    <hr style="width:200px" class="w3-opacity">-->
-    <p class="w3-text-light-grey">Passionate about delivering performance-oriented and responsive websites for all devices.
-	   Providing timely , high-quality, well-tested, reliable and maintainable work since 5 years.
-    </p>
+      <!-- About Section -->
+      <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+        <!--<h2 class="w3-text-light-grey">Savitha Premkumar</h2>
+        <hr style="width:200px" class="w3-opacity">-->
+        <p class="w3-text-light-grey">Passionate about delivering performance-oriented and responsive websites for all devices.
+    	   Providing timely , high-quality, well-tested, reliable and maintainable work since 5 years.
+        </p>
 
-    <button class="w3-button w3-light-grey w3-padding-large w3-section fa fa-download">
-     <a href="/files/SP_Resume_JavaScript Developer.pdf" download="Resume" class="anchor fontfamily"> Download Resume</a> 
-    </button>
+        <button class="w3-button w3-light-grey w3-padding-large w3-section fa fa-download">
+         <a href="/files/SP_Resume_JavaScript Developer.pdf" download="Resume" class="anchor fontfamily"> Download Resume</a> 
+        </button>
+            
+      </div>
+      
+           
+
+      <!-- Contact Section -->
+      <div class="w3-content w3-text-grey" id="contact">
+        <h2 class="w3-text-light-grey">Contact Me</h2>
+
+        <div class="w3-section">
+          <p class="w3-text-light-grey"><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Auckland,NZ</p>
+          <p class="w3-text-light-grey"><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: savithapremkumar@gmail.com</p>
+        </div>
         
-  </div>
-  
-  
+      <!-- End Contact Section -->
+      </div>
+      
+        <!-- Footer -->
+      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge padding-24">
+        <a class="fa fa-github w3-hover-opacity w3-xxlarge anchor aicon" href="https://github.com/savithapremkumar"></a>
+        <a class="fa fa-linkedin w3-hover-opacity w3-xxlarge anchor aicon" href="https://www.linkedin.com/in/savitha-premkumar-
+    8aa23847"></a>
+        
+      <!-- End footer -->
+      </footer>
 
- 
-
-  <!-- Contact Section -->
-  <div class="w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact Me</h2>
-
-    <div class="w3-section">
-      <p class="w3-text-light-grey"><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Auckland,NZ</p>
-      <p class="w3-text-light-grey"><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: savithapremkumar@gmail.com</p>
+      <!-- END PAGE CONTENT -->
     </div>
-    
-  <!-- End Contact Section -->
-  </div>
-  
-    <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge padding-24">
-    <a class="fa fa-github w3-hover-opacity w3-xxlarge anchor aicon" href="https://github.com/savithapremkumar"></a>
-    <a class="fa fa-linkedin w3-hover-opacity w3-xxlarge anchor aicon" href="https://www.linkedin.com/in/savitha-premkumar-
-8aa23847"></a>
-    
-  <!-- End footer -->
-  </footer>
 
-  <!-- END PAGE CONTENT -->
-</div>
-
-<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
   <script>
-    window.addEventListener('load',
-    function(){
-        var elem = document.getElementsByClassName("w3-dark-grey");  
-        var width = 1;
-        var id = setInterval(frame, 10);
-        function frame() {
+      window.addEventListener('load',
+      function(){
+          var elem = document.getElementsByClassName("w3-dark-grey");  
+          var width = 1;
+          var id = setInterval(frame, 10);
+          function frame() {
 
-                if(width>=95) {
-                  clearInterval(id);
-                }
-                
-                else {
-                  width++; 
-                  for (var i=0; i<elem.length; i++) {
-                    if (width >=80 && i ==3)
-                    {
-                      break; 
-                    }
-
-                    else if (width >=90 && (i == 1 || i==2)) {
-                      break;
-                    }
-
-                    else if (width >=50 && i==4) {
-                      break;
-                    }
-                    else {
-                      elem[i].style.width = width + '%'; 
-
-                    }
+                  if(width>=95) {
+                    clearInterval(id);
                   }
-                }     
-          }
-          
-    })
+                  
+                  else {
+                    width++; 
+                    for (var i=0; i<elem.length; i++) {
+                      if (width >=80 && i ==3)
+                      {
+                        break; 
+                      }
+
+                      else if (width >=90 && (i == 1 || i==2)) {
+                        break;
+                      }
+
+                      else if (width >=50 && i==4) {
+                        break;
+                      }
+                      else {
+                        elem[i].style.width = width + '%'; 
+
+                      }
+                    }
+                  }     
+            }
+            
+      })
   </script>
-</body>
+  </body>
 </html>
