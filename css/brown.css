@@ -1,11 +1,5 @@
 .w3-black, .w3-hover-black:hover {
 
-	background: #EF6988; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#EF6988, #B22033); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#EF6988, #B22033); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#EF6988, #B22033); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#EF6988, #B22033); /* Standard syntax (must be last) */
-
 	background-color: #D9CFC1!important;
 	color:#f1f1f1!important;
 }
