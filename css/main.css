@@ -9,8 +9,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-sidebar {width: 120px;}
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0} .togglecss {font-size: 12px!important;} .skilldiv {margin-top:0px; height:600px;}}
+
 
 .white {
 	color: #f1f1f1!important;
@@ -72,3 +71,6 @@ div.thumbcontainer:hover > img {
 	margin-top:-80px;
 	height:600px;
 }
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0} .togglecss {font-size: 12px!important;} .skilldiv {margin-top:0px; height:600px;}}
