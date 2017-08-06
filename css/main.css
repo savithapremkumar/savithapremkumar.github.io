@@ -67,5 +67,5 @@ div.thumbcontainer:hover > img {
 }
 
 .padding-400 {
-	padding-top: 400px;
+	padding-top: 400px!important;
 }
